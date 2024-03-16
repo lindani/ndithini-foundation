@@ -15,7 +15,9 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
+    `gatsby-remark-prismjs`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
